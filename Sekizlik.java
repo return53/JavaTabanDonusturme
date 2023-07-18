@@ -7,7 +7,7 @@ public class Sekizlik implements Fonksiyonlar{
 	@Override
 	public String toBinary(String sayi) {
 		
-		int decimal = Integer.parseInt(sayi, taban);
+	int decimal = Integer.parseInt(sayi, taban);
         return Integer.toBinaryString(decimal);
 
 	}
@@ -22,7 +22,7 @@ public class Sekizlik implements Fonksiyonlar{
 	@Override
 	public String toDecimal(String sayi) {
 		
-		int decimal = Integer.parseInt(sayi, taban);
+	int decimal = Integer.parseInt(sayi, taban);
         return Integer.toString(decimal);
         
 	}
@@ -30,7 +30,7 @@ public class Sekizlik implements Fonksiyonlar{
 	@Override
 	public String toHexadecimal(String sayi) {
 		
-		int decimal = Integer.parseInt(sayi, taban);
+	int decimal = Integer.parseInt(sayi, taban);
         return Integer.toHexString(decimal);
 
 	}
