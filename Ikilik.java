@@ -7,14 +7,14 @@ public class Ikilik implements Fonksiyonlar{
 	@Override
 	public String toBinary(String sayi) {
 		
-		return sayi;
+	return sayi;
 		
 	}
 
 	@Override
 	public String toOctal(String sayi) {
 
-		int ondalıkSayi = Integer.parseInt(sayi, taban);
+	int ondalıkSayi = Integer.parseInt(sayi, taban);
         return Integer.toOctalString(ondalıkSayi);
 	    
 	}
@@ -22,7 +22,7 @@ public class Ikilik implements Fonksiyonlar{
 	@Override
 	public String toDecimal(String sayi) {
 		
-		int ondalıkSayi = Integer.parseInt(sayi, taban);
+	int ondalıkSayi = Integer.parseInt(sayi, taban);
         return Integer.toString(ondalıkSayi);		
 
 	}
@@ -30,7 +30,7 @@ public class Ikilik implements Fonksiyonlar{
 	@Override
 	public String toHexadecimal(String sayi) {
 		
-		int ondalıkSayi = Integer.parseInt(sayi, taban);
+	int ondalıkSayi = Integer.parseInt(sayi, taban);
         return Integer.toHexString(ondalıkSayi);
         
 	}
