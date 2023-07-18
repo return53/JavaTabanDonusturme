@@ -8,7 +8,7 @@ public class OnAltilik implements Fonksiyonlar{
 	@Override
 	public String toBinary(String sayi) {
 
-		int decimal = Integer.parseInt(sayi, taban);
+	int decimal = Integer.parseInt(sayi, taban);
         return Integer.toBinaryString(decimal);
         
 	}
@@ -16,7 +16,7 @@ public class OnAltilik implements Fonksiyonlar{
 	@Override
 	public String toOctal(String sayi) {
 		
-		int decimal = Integer.parseInt(sayi, taban);
+	int decimal = Integer.parseInt(sayi, taban);
         return Integer.toOctalString(decimal);
         
 	}
@@ -24,7 +24,7 @@ public class OnAltilik implements Fonksiyonlar{
 	@Override
 	public String toDecimal(String sayi) {
 		
-		int decimal = Integer.parseInt(sayi, taban);
+	int decimal = Integer.parseInt(sayi, taban);
         return Integer.toString(decimal);
         
 	}
